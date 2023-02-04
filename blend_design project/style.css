@@ -1,0 +1,43 @@
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    
+}
+.container--1{
+    background: repeating-linear-gradient(
+        45deg,
+        #9b80d4,
+        #6C4AB6 7.5%,
+        #9b80d4 15%
+    ),
+    repeating-linear-gradient(
+        -45deg,
+        #9b80d4,
+        #6C4AB6 7.5%,
+        #9b80d4 15%
+    )
+    ;
+    background-blend-mode:darken;
+}
+.container--2{
+    background: repeating-radial-gradient(
+        #9b80d4 ,
+        #6C4AB6 10%,
+        #9b80d4 15%
+    ),
+    repeating-linear-gradient(
+        -45deg,
+        #9b80d4,
+        #6C4AB6 7.5%,
+        #9b80d4 15%
+    ),
+    repeating-linear-gradient(
+        45deg,
+        #9b80d4,
+        #341872 7.5%,
+        #9b80d4 15%
+    )
+    ;
+    background-blend-mode:luminosity;
+}
